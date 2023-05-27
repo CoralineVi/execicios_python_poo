@@ -10,7 +10,7 @@
 
 1. Crie uma classe base chamada `Animal` com o método `fazer_som()`. Em seguida, crie duas classes derivadas, como `Cachorro` e `Gato`, que herdam de `Animal` e implementam o método `fazer_som()` com sons diferentes para cada classe.
 2. Implemente uma hierarquia de classes para um sistema de funcionários de uma empresa. Crie uma classe base `Funcionario` com atributos como `nome` e `salario`, e em seguida crie classes derivadas como `Gerente`, `Analista` e `Estagiario`, cada uma com atributos específicos e comportamentos adicionais.
-3. Crie uma classe base `Forma` com métodos para calcular a área e o perímetro. Em seguida, crie classes derivadas como `Retangulo`, `Circulo` e `Triangulo` que herdam de `Forma` e implementam seus próprios cálculos de área e perímetro.
+3. Crie uma classe base `Forma`. Em seguida, crie classes derivadas como `Retangulo` e `Triangulo` que herdam de `Forma` e implementam seus próprios cálculos de área e perímetro.
 
 ## Polimorfismo
 

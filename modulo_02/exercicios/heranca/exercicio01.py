@@ -7,18 +7,15 @@ e implementam o método fazer_som() com sons diferentes para cada classe.
 class Animal:
     def __init__(self, nome):
         self.nome = nome
-        pass
 
 
 class Cachorro(Animal):
     def fazer_som(self):
         print(f"O cachorro {self.nome} latiu")
-        pass
 
 class Gato(Animal):
     def fazer_som(self):
         print(f"O gato {self.nome} miou")
-        pass
 
 gato_1 = Gato("Nya")
 cachorro_1 = Cachorro("Rex")

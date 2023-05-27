@@ -8,19 +8,16 @@ class Funcionario:
     def __init__(self, nome, salario):
         self.nome = nome
         self._salario = salario
-        pass
     
     def getter_infos(self):
         print(f"Nome: {self.nome} | Salário: {self._salario}")
-        pass
     
     def getter_infos_funcionario(self, funcionario):
         if self.nv_hierarquia >= 2:
             print(f"Nome: {funcionario.nome} | Salário: {funcionario._salario}")
         else:
             print("Permissão negada")
-        pass
-    
+
 
 class Gerente(Funcionario):
     def __init__(self, nome, salario):
@@ -33,14 +30,13 @@ class Gerente(Funcionario):
             print(f"Salário do {funcionario.nome} atualizado | Novo salário: R${valor}")
         else:
             print("Permissão negada")
-        pass
-    
+
 
 class Analista(Funcionario):
     def __init__(self, nome, salario):
         super().__init__(nome, salario)
         self.nv_hierarquia = 2
-    
+
 
 class Estagiario(Funcionario):
     def __init__(self, nome, salario):
@@ -49,8 +45,7 @@ class Estagiario(Funcionario):
     
     def trabalhar(self):
         print(f"Pois é amigo {self.nome}, a vida de estágiario é difícil")
-        pass
-    
+
 
 o_gerente1 = Gerente("Gerente Carlos", 3000)
 o_gerente2 = Gerente("Gerente Igor", 3100)
