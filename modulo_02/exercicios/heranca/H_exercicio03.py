@@ -16,11 +16,11 @@ class Retangulo(Forma):
     
     def calcular_area(self):
         area = self.base * self.altura
-        print(f"Área do Retangulo = Base x Altura = {area}")
+        return area
     
     def calcular_perimetro(self):
         perimetro = 2 * (self.base + self.altura)
-        print(f"Perimetro do Retangulo = 2 * (Base + Altura) = {perimetro}")
+        return perimetro
 
 
 class Triangulo(Forma):
@@ -32,11 +32,11 @@ class Triangulo(Forma):
     
     def calcular_area(self):
         area = (self.base * self.altura) / 2
-        print(f"Área do Triângulo = (Base * Altura) / 2 = {area}")
+        return area
     
     def calcular_perimetro(self):
         perimetro = self.lado1 + self.lado2 + self.lado3
-        print(f"Perimetro do Triângulo = Lado 1 + Lado 2 + Lado 3 = {perimetro}")
+        return perimetro
 
 
 # Objetos
