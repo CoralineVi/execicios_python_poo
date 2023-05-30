@@ -18,5 +18,6 @@
 2. Implemente uma classe base `Veiculo` com o método `acelerar()`. Em seguida, crie classes derivadas como `Carro`, `Moto` e `Caminhao`, que herdam de `Veiculo` e implementam o método `acelerar()` de maneira diferente em cada classe.
 3. Crie uma função chamada `calcular_area_total` que recebe uma lista de objetos `Forma` (da atividade de herança) e calcula a área total somando as áreas de cada forma. Chame essa função com diferentes objetos e verifique o comportamento polimórfico.
 
-**Atividade combinando os conceitos:**
+## Desafio Final
+
 Crie uma classe chamada `Pessoa` com os atributos `nome` e `idade`. Utilize o encapsulamento para torná-los privados. Em seguida, crie uma classe `Aluno` que herda de `Pessoa` e adiciona o atributo `matricula`. Implemente métodos para acessar e modificar a matrícula. Por fim, crie uma função que recebe uma lista de objetos `Pessoa` (que podem ser tanto objetos `Pessoa` quanto objetos `Aluno`) e exibe o nome e a idade de cada pessoa, usando o polimorfismo para tratar os objetos de forma genérica.

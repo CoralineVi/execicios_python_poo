@@ -45,11 +45,11 @@ triangulo_1 = Triangulo(5, 5, 3, 3, 3)
 #
 
 # Retangulo
-retangulo_1.calcular_area()
-retangulo_1.calcular_perimetro()
+print(retangulo_1.calcular_area())
+print(retangulo_1.calcular_perimetro())
 #
 
 # Triangulo
-triangulo_1.calcular_area()
-triangulo_1.calcular_perimetro()
+print(triangulo_1.calcular_area())
+print(triangulo_1.calcular_perimetro())
 #

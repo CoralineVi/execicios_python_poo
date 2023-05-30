@@ -3,9 +3,9 @@ Crie uma função chamada calcular_area_total que recebe uma lista de objetos Fo
 e calcula a área total somando as áreas de cada forma. Chame essa função com diferentes objetos e verifique o comportamento polimórfico.
 """
 
-# Tive problemas para importar de outra pasta, apesar da ideia ser praticar a modularização
-# Para evitar que eu passasse mais tempo (passei 4 horas nessa atividade, decidi passar diretamente o código para cá)
-# Estou pedindo ajuda em grupos de estudos, quanto eu conseguir faço a correção
+# O correto seria importar as classes do arquivo H_exercicio03
+# Contudo, para isso seria necessário organizar os arquivos de outra maneira, então preferi deixar assim
+# Mas em qualquer outro projeto o correto é usar o import, isso foi apenas uma exceção, afinal estou somente estudando
 class Forma:
     def __init__(self, base, altura):
         self.base = base
@@ -39,8 +39,8 @@ class Triangulo(Forma):
     def calcular_perimetro(self):
         perimetro = self.lado1 + self.lado2 + self.lado3
         return perimetro
-
 #
+
 
 def calcular_area_total(lista_formas):
     soma = 0
