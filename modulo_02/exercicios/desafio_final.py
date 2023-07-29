@@ -51,7 +51,7 @@ Idade: {pessoa._idade}""")
 
 
 aluno1 = Aluno("Jhin", 44, 4444)
-pessoa1 = Pessoa("Vi", 22)
+pessoa1 = Pessoa("Vivi", 66)
 lista_pessoas = [aluno1, pessoa1]
 
 aluno1.setter_matricula()
