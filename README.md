@@ -8,7 +8,7 @@ Esse repositório não se trata exatamente de um curso, eu apenas peguei um plan
 
 ## Notion
 
-[Anotações de Python](https://mylimbo.notion.site/Programa-o-59d96b345a1e4b52a8187f30a930a322)
+[Anotações de Python](https://coralinevi.notion.site/Programa-o-a24562814e9a43e89ed65905c9f45d0b?pvs=4)
 
 ## Referências
 
